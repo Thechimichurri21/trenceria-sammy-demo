@@ -1,4 +1,5 @@
 import Hero from "@/components/hero/Hero";
+import Gallery from "@/components/sections/Gallery";
 import Marquee from "@/components/ui/Marquee";
 
 const MARQUEE_ITEMS = [
@@ -15,6 +16,7 @@ export default function Home() {
     <main className="min-h-screen bg-main">
       <Hero />
       <Marquee items={MARQUEE_ITEMS} />
+      <Gallery />
     </main>
   );
 }
