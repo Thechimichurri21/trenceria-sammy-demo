@@ -1,26 +1,38 @@
 @import "tailwindcss";
 
+/* --- The Braids Artist · Streetwear Luxury/Chrome --- */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --main: #050505;
+  --chrome-light: #E8E8E8;
+  --chrome-dark: #737373;
+  --accent-neon: #FFFFFF;
+  --metal-gradient: linear-gradient(to bottom right, #E8E8E8, #737373, #171717);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-main: var(--main);
+  --color-chrome-light: var(--chrome-light);
+  --color-chrome-dark: var(--chrome-dark);
+  --color-accent-neon: var(--accent-neon);
+  --font-sans: var(--font-inter);
+  --font-syne: var(--font-syne);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #050505;
+  color: #E8E8E8;
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+/* Texto con efecto plata líquida (metálico) */
+.text-chrome {
+  background: linear-gradient(to bottom right, #E8E8E8, #737373, #171717);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.font-syne {
+  font-family: var(--font-syne), system-ui, sans-serif;
 }
