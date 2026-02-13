@@ -42,7 +42,7 @@ function GalleryCard({
 
   return (
     <div
-      className={`group relative flex min-h-[200px] overflow-hidden border border-white/10 bg-white/5 transition-all duration-500 hover:border-chrome-light/50 hover:bg-white/10 md:min-h-0 ${className}`}
+      className={`group relative flex min-h-[200px] overflow-hidden border border-white/10 bg-white/5 transition-all duration-500 hover:border-chrome-light/50 hover:bg-white/10 ${className}`}
     >
       {!imageError ? (
         <Image
@@ -92,21 +92,21 @@ export default function Gallery() {
             className="aspect-square md:col-span-2 md:row-span-2 md:aspect-video"
           />
         </motion.div>
-        <motion.div variants={cardVariants}>
+        <motion.div variants={cardVariants} className="md:h-full">
           <GalleryCard
             label={GALLERY_ITEMS[1].label}
             image={GALLERY_ITEMS[1].image}
-            className="aspect-[4/5] md:col-span-1 md:row-span-2 md:aspect-auto"
+            className="aspect-[4/5] md:col-span-1 md:row-span-2 md:h-full"
           />
         </motion.div>
         <motion.div variants={cardVariants}>
-          <GalleryCard label={GALLERY_ITEMS[2].label} image={GALLERY_ITEMS[2].image} />
+          <GalleryCard label={GALLERY_ITEMS[2].label} image={GALLERY_ITEMS[2].image} className="aspect-square" />
         </motion.div>
         <motion.div variants={cardVariants}>
-          <GalleryCard label={GALLERY_ITEMS[3].label} image={GALLERY_ITEMS[3].image} />
+          <GalleryCard label={GALLERY_ITEMS[3].label} image={GALLERY_ITEMS[3].image} className="aspect-square" />
         </motion.div>
         <motion.div variants={cardVariants}>
-          <GalleryCard label={GALLERY_ITEMS[4].label} image={GALLERY_ITEMS[4].image} />
+          <GalleryCard label={GALLERY_ITEMS[4].label} image={GALLERY_ITEMS[4].image} className="aspect-square" />
         </motion.div>
       </motion.div>
     </section>
