@@ -16,6 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://trenceria-sammy-demo.vercel.app"),
   title: "Sammy · Elite Braids",
   description:
     "La Trencería #1 en Madrid. Especialistas en trenzas exclusivas y servicio VIP para deportistas de élite. Vive la experiencia de la artista de las estrellas.",
@@ -28,7 +29,14 @@ export const metadata: Metadata = {
     title: "Trencería Sammy · La Artista de las Estrellas",
     description:
       "Reserva tu cita en la trencería más exclusiva de Madrid. Estilo VIP para quienes no aceptan menos.",
-    images: ["/logo.jpg"],
+    images: [
+      {
+        url: "/logo.jpg",
+        width: 800,
+        height: 800,
+        alt: "Trencería Sammy - La Artista de las Estrellas",
+      },
+    ],
     type: "website",
     locale: "es_ES",
   },
