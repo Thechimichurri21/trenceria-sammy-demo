@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Syne, Inter } from "next/font/google";
+import ScrollProgress from "@/components/ui/ScrollProgress";
 import "./globals.css";
 
 const syne = Syne({
@@ -41,6 +42,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${syne.variable} ${inter.variable}`}>
       <body className="antialiased">
+        <ScrollProgress />
         {children}
       </body>
     </html>
