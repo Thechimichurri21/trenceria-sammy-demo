@@ -2,7 +2,9 @@ import Hero from "@/components/hero/Hero";
 import Footer from "@/components/layout/Footer";
 import Booking from "@/components/sections/Booking";
 import Gallery from "@/components/sections/Gallery";
+import Studio from "@/components/sections/Studio";
 import Marquee from "@/components/ui/Marquee";
+import WhatsAppButton from "@/components/ui/WhatsAppButton";
 
 const MARQUEE_ITEMS = [
   "TRENZAS DE ÉLITE",
@@ -22,8 +24,10 @@ export default function Home() {
       <Hero />
       <Marquee items={MARQUEE_ITEMS} />
       <Gallery />
+      <Studio />
       <Booking />
       <Footer />
+      <WhatsAppButton />
     </main>
   );
 }

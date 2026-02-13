@@ -8,6 +8,8 @@ export default function Hero() {
       {/* Video Background */}
       <video
         className="absolute inset-0 z-0 h-full w-full object-cover opacity-60"
+        poster="/images/hero-poster.jpg"
+        preload="auto"
         autoPlay
         loop
         muted
