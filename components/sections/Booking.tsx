@@ -17,10 +17,10 @@ export default function Booking() {
           viewport={{ once: true, amount: 0.25 }}
           transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
         >
-          READY TO ELEVATE YOUR STYLE?
+          ¿LISTO PARA ELEVAR TU ESTILO?
         </motion.h2>
         <p className="mt-6 font-sans text-chrome-dark">
-          Slots are limited. Advance booking recommended.
+          Plazas limitadas. Se recomienda reserva anticipada.
         </p>
         <a
           href={BOOKSY_URL}
@@ -28,7 +28,7 @@ export default function Booking() {
           rel="noopener noreferrer"
           className="mt-12 inline-block bg-white px-12 py-5 font-syne text-xl font-bold uppercase tracking-wider text-black shadow-[0_0_30px_rgba(255,255,255,0.3)] transition-transform duration-300 hover:scale-105"
         >
-          Book with Booksy
+          RESERVAR EN BOOKSY
         </a>
       </div>
     </section>

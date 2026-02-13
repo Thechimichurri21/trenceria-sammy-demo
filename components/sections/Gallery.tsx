@@ -5,11 +5,11 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 const GALLERY_ITEMS = [
-  { id: "1", label: "STYLE 01", image: "/images/braid1.jpg" },
-  { id: "2", label: "STYLE 02", image: "/images/braid2.jpg" },
-  { id: "3", label: "STYLE 03", image: "/images/braid3.jpg" },
-  { id: "4", label: "STYLE 04", image: "/images/braid4.jpg" },
-  { id: "5", label: "STYLE 05", image: "/images/braid5.jpg" },
+  { id: "1", label: "ESTILO 01", image: "/images/braid1.jpg" },
+  { id: "2", label: "ESTILO 02", image: "/images/braid2.jpg" },
+  { id: "3", label: "ESTILO 03", image: "/images/braid3.jpg" },
+  { id: "4", label: "ESTILO 04", image: "/images/braid4.jpg" },
+  { id: "5", label: "ESTILO 05", image: "/images/braid5.jpg" },
 ] as const;
 
 const cardVariants = {
@@ -75,7 +75,7 @@ export default function Gallery() {
         id="gallery-heading"
         className="text-center text-xs uppercase tracking-[0.5em] text-chrome-dark"
       >
-        SELECTED WORKS
+        TRABAJOS SELECCIONADOS
       </h2>
 
       <motion.div

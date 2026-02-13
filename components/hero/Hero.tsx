@@ -31,7 +31,7 @@ export default function Hero() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          THE BRAIDS ARTIST
+          LA ARTISTA DE LAS ESTRELLAS
         </motion.h1>
 
         <motion.h2
@@ -40,7 +40,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.5, ease: "easeOut" }}
         >
-          SAMMY • MADRID • ELITE SERVICES
+          SAMMY • MADRID • SERVICIOS DE ÉLITE
         </motion.h2>
 
         <motion.button
@@ -50,7 +50,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.8, ease: "easeOut" }}
         >
-          REQUEST ACCESS
+          SOLICITAR CITA
         </motion.button>
       </div>
     </section>

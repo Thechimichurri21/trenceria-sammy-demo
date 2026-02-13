@@ -15,8 +15,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The Braids Artist · Sammy",
-  description: "Streetwear Luxury / Chrome",
+  title: "Sammy · La Artista de las Estrellas",
+  description: "Trencería de lujo y estilo urbano en Madrid.",
 };
 
 export default function RootLayout({

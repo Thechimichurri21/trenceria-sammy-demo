@@ -5,14 +5,15 @@ import Gallery from "@/components/sections/Gallery";
 import Marquee from "@/components/ui/Marquee";
 
 const MARQUEE_ITEMS = [
+  "TRENZAS DE ÉLITE",
+  "DISEÑOS EXCLUSIVOS",
+  "MADRID",
   "VINICIUS JR",
   "MEMPHIS DEPAY",
   "XAVI SIMONS",
   "DAVID ALABA",
   "MALUMA",
   "HADES66",
-  "ELITE BRAIDS",
-  "MADRID",
 ];
 
 export default function Home() {

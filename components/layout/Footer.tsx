@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="border-t border-white/10 bg-main py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 px-4 md:flex-row md:items-end">
         <span className="order-2 text-chrome-dark md:order-1">
-          SAMMY © 2024
+          SAMMY © 2026
         </span>
         <span className="order-1 text-center text-sm text-chrome-dark/80 md:order-2">
           MADRID • ESTRECHO
@@ -22,7 +22,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="transition-colors hover:text-white"
           >
-            Instagram
+            INSTAGRAM
           </a>
           <a
             href={BOOKSY_URL}
@@ -30,7 +30,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="transition-colors hover:text-white"
           >
-            Booksy
+            RESERVAS
           </a>
         </nav>
       </div>
