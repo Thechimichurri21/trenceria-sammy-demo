@@ -15,10 +15,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Trencería Sammy · La Artista de las Estrellas | Citas VIP Madrid",
+  title: "Sammy · Elite Braids",
   description:
     "La Trencería #1 en Madrid. Especialistas en trenzas exclusivas y servicio VIP para deportistas de élite. Vive la experiencia de la artista de las estrellas.",
   icons: { icon: "/logo.jpg" },
+  appleWebApp: {
+    title: "Sammy",
+    statusBarStyle: "black-translucent",
+  },
   openGraph: {
     title: "Trencería Sammy · La Artista de las Estrellas",
     description:

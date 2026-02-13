@@ -47,10 +47,22 @@ export default function Hero() {
 
         <motion.button
           type="button"
-          className="mt-12 border border-white/20 px-8 py-3 text-xs uppercase tracking-widest backdrop-blur-sm transition-all duration-300 hover:bg-white hover:text-black"
+          className="mt-12 border border-white/20 px-8 py-3 text-xs uppercase tracking-widest backdrop-blur-sm transition-colors duration-300 hover:bg-white hover:text-black"
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.8, ease: "easeOut" }}
+          animate={{
+            opacity: 1,
+            scale: [1, 1.02, 1],
+          }}
+          transition={{
+            opacity: { duration: 0.6, delay: 0.8, ease: "easeOut" },
+            scale: {
+              delay: 1.4,
+              duration: 2.2,
+              repeat: Infinity,
+              ease: "easeInOut",
+              repeatDelay: 0.5,
+            },
+          }}
         >
           SOLICITAR CITA
         </motion.button>

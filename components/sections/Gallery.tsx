@@ -42,7 +42,7 @@ function GalleryCard({
 
   return (
     <div
-      className={`group relative flex min-h-[200px] overflow-hidden border border-white/10 bg-white/5 transition-all duration-500 hover:border-chrome-light/50 hover:bg-white/10 ${className}`}
+      className={`group relative flex min-h-[200px] overflow-hidden border border-white/10 bg-white/5 transition-all duration-500 hover:border-chrome-light/50 hover:bg-white/10 hover:shadow-[0_0_20px_rgba(255,255,255,0.15)] active:shadow-[0_0_20px_rgba(255,255,255,0.2)] ${className}`}
     >
       {!imageError ? (
         <Image
