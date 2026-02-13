@@ -15,8 +15,18 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sammy · La Artista de las Estrellas",
-  description: "Trencería de lujo y estilo urbano en Madrid.",
+  title: "Trencería Sammy · La Artista de las Estrellas | Citas VIP Madrid",
+  description:
+    "La Trencería #1 en Madrid. Especialistas en trenzas exclusivas y servicio VIP para deportistas de élite. Vive la experiencia de la artista de las estrellas.",
+  icons: { icon: "/logo.jpg" },
+  openGraph: {
+    title: "Trencería Sammy · La Artista de las Estrellas",
+    description:
+      "Reserva tu cita en la trencería más exclusiva de Madrid. Estilo VIP para quienes no aceptan menos.",
+    images: ["/logo.jpg"],
+    type: "website",
+    locale: "es_ES",
+  },
 };
 
 export default function RootLayout({
